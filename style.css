@@ -1,26 +1,4 @@
-body{
-    background-color: #fde0c8;
-    border: 4px dotted #ffc392;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-h2{
-    font-size: 25px;
-    color: #b35f00;
-    text-shadow: 3px 3px 3px #aaaaaa;
-    margin-left: 15%;
-}
-h3{
-    font-size: 25px;
-    color: #b35f00;
-    text-shadow: 3px 3px 3px #aaaaaa;
-    margin-left: 15%;
-}
-ol{
-    color: #2F4F4F;
-    margin-left: 10%;
-}
-ul{
-    color: #2F4F4F;
-    margin-left: 10%;
+table {
+    margin-left: 835px;
+    margin-right: auto;
 }

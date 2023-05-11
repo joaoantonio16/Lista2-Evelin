@@ -1,34 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Lista em HTML</title>
-</head>
-<body>
-    <h2>Como fazer um bolo simples</h2>
-    <h3>Siga passo a passo</h3>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>Tabela</title>
+    </head>
+    <body>
+        <table border="3px"> 
+            <tr>
+                <th colspan="2" bgcolor="yellow">Vendas Março 2010</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Carro</th>
+                <th bgcolor="#99ccff">Unidades</th>
+            </tr>
+            <tr>
+                <td>Gol</td >
+                <td>250.000</td>
+            </tr>
+            <tr>
+                <td>Uno</td>
+                <td>123.000</td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="yellow">Venda fev. 2010</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Carro</th>
+                <th bgcolor="#99ccff">Unidades</th>
+            </tr>
+            <tr>
+                <td>Gol</td>
+                <td>250.000</td>
+            </tr>
+            <tr>
+                <td>Uno</td>
+                <td>123.000</td>
+            </tr>
+        </table>
+        <br><br>
 
-    <ol>
-        <li>2 xícaras (chá) farinha de trigo</li>
-        <li>2 xícaras (chá) açúcar</li>
-        <li>1 xícara (chá) leite</li>
-        <li>2 ovos</li>
-        <li>4 colheres (sopa) óleo</li>
-        <li>1 pitada de sal</li>
-        <li>1 colher (sopa) fermento em pó</li>
-        <li>essência de baunilha a gosto (opcional)</li>
-        <li>2/1 xícaras de cacau em pó</li>
-        <li>35 minutos/45 minutos para assar</li>
-    </ol>
+        <table border="3px"> 
+            <tr>
+                <th colspan="3" bgcolor="yellow">Venda de Carros</th>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="#c6e5b1">Março</th>
+                <th bgcolor="#c6e5b1">2010</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Carro</th>
+                <th bgcolor="#99ccff">Unidades</th>
+                <th bgcolor="#99ccff">Montadora</th>
+            </tr>
+            <tr>
+                <td>Gol</td >
+                <td>250.000</td>
+                <td>VW</td>
+            </tr>
+            <tr>
+                <td>Celta</td>
+                <td>190.000</td>
+                <td>GM</td>
+            </tr>
+            <tr>
+                <td>Fiat</td>
+                <td>123.000</td>
+                <td>Fiat</td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="#c6e5b1">Fevereiro</th>
+                <th bgcolor="#c6e6b1">2010</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Carro</th>
+                <th bgcolor="#99ccff">Unidades</th>
+                <th bgcolor="#99ccff">Montadora</th>
+            </tr>
+            <tr>
+                <td>Gol</td>
+                <td>230.000</td>
+                <td>VW</td>
+            </tr>
+            <tr>
+                <td>Celta</td>
+                <td>189.000</td>
+                <td>GM</td>
+            </tr>
+            <tr>
+                <td>Uno</td>
+                <td>114.000</td>
+                <td>Fiat</td>
+            </tr>
+        </table>
+        <br><br>
 
-    <h2>Como fazer um empadão</h2>
-    <h3>Siga o passo a passo</h3>
+        <table border="3px"> 
+            <tr>
+                <th rowspan="5" bgcolor="yellow">Serie A</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Time</th>
+                <th bgcolor="#99ccff">Pontos</th>
+            </tr>
+            <tr>
+                <td>Internacional</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Juventude</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+                <td>30</td>
+            </tr>
+        </table>
+        <br><br>
 
-    <ul>
-        <li>1 peito de frango</li>
-        <li>1 caldinho de galinha</li>
-        <li>1/2 de sal</li>
-    </ul>
+        <table border="3px"> 
+            <tr>
+                <th rowspan="5" bgcolor="yellow">Serie A</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Time</th>
+                <th bgcolor="#99ccff">Pontos</th>
+            </tr>
+            <tr>
+                <td>Internacional</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Juventude</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th rowspan="5" bgcolor="yellow">Serie B</th>
+            </tr>
+            <tr>
+                <th bgcolor="#99ccff">Time</th>
+                <th bgcolor="#99ccff">Pontos</th>
+            </tr>
+            <tr>
+                <td>Grêmio</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Corinthians</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Flamengo</td>
+                <td>30</td>
+            </tr>
+        </table>
+        <br><br>
 
-</body>
+        <table border="3px"> 
+            <tr>
+                <th colspan="4" bgcolor="#99ccff">Vendas trimestrais</th>
+            </tr>
+            <tr>
+                <th rowspan="4" bgcolor="yellow">2010</th>
+            </tr>
+            <tr>
+                <td>144.00</td>
+                <th rowspan="4" bgcolor="#c6e5b1">2009</th>
+                <td>188.000</td>
+            </tr>
+            <tr>
+                <td>139.580</td>
+                <td>179.580</td>
+            </tr>
+            <tr>
+                <td>254.900</td>
+                <td>298.500</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <table border="3px">
+            <tr>
+                <th colspan="5" bgcolor="#99ccff">Visitas Mensais</th>
+            </tr>
+            <tr>
+                <th rowspan="6" bgcolor="yellow">2010</th>
+            </tr>
+            <tr>
+                <td colspan="2" >144.000</td>
+            </tr>
+            <tr>
+                <td colspan="2">139.580</td>
+            </tr>
+            <tr>
+                <td colspan="2" >254.900</td>
+            </tr>
+            <tr>
+                <th>Média</th>
+                <th>Períodos</th>
+            </tr>
+            <tr>
+                <td>201.000</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <table border="3px">
+            <tr>
+                <th colspan="3">Ficha Técnica</th>
+            </tr>
+            <tr>
+                <td>Imagem de carro</td>
+                <td>Nome</td>
+                <td>Polo GTI</td>
+            </tr>
+        </table>
+    </body>
